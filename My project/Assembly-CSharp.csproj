@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{e6bdc332-25e1-2831-82c1-25d0441455a3}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Unity.Rider.Editor\</OutputPath>
+    <DefineConstants>UNITY_EDITOR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Folder Include="Assets" />
+     <Folder Include="Assets\Free-TDS-Game-UI-Pixel-Art\HUD" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <Folder Include="Assets\Free-TDS-Game-UI-Pixel-Art\Pause menu" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <Folder Include="Assets\Free-TDS-Game-UI-Pixel-Art\Bonus" />
+     <Folder Include="Assets\TextMesh Pro\Sprites" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\farmer base sheets\08lwr3" />
+     <Folder Include="Assets\Free-TDS-Game-UI-Pixel-Art\Settings" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
+     <Folder Include="Assets\cloud_tileset" />
+     <Folder Include="Assets\Free-TDS-Game-UI-Pixel-Art\Minimap" />
+     <Folder Include="Assets\Animations" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <Folder Include="Assets\Animations\HUD" />
+     <Folder Include="Assets\Textures\Borders" />
+     <Folder Include="Assets\cloud_tileset\Materials" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\farmer base sheets\03fot1" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\farmer base sheets\10outr" />
+     <Folder Include="Assets\cloud_tileset\rpgmaker_mv" />
+     <Folder Include="Assets\Free-TDS-Game-UI-Pixel-Art\Loading Screen" />
+     <Folder Include="Assets\Textures\Borders\Flat" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
+     <None Include="Assets\Mana Seed Farmer Sprite Free Sample\create and sell your own compatible content.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <Folder Include="Assets\TextMesh Pro\Resources" />
+     <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\farmer base sheets\06lwr2" />
+     <Folder Include="Assets\Free-TDS-Game-UI-Pixel-Art\HUD\MONEY PANEL" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\farmer base sheets\11neck" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Assets\Free-TDS-Game-UI-Pixel-Art" />
+     <Folder Include="Assets\Palette" />
+     <Folder Include="Assets\TextMesh Pro" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\farmer base sheets" />
+     <None Include="Assets\Mana Seed Farmer Sprite Free Sample\Mana Seed readme.txt" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\farmer base sheets\07fot2" />
+     <Folder Include="Assets\cloud_tileset\rpgmaker_1" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Mana Seed Farmer Sprite Free Sample\Farmer Sprite System readme.txt" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\_supporting files\palettes" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\Mana Seed Farmer Sprite Free Sample\THIS IS A FREE SAMPLE.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\farmer base sheets\09hand" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\farmer base sheets\02sock" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\_supporting files" />
+     <Folder Include="Assets\Free-TDS-Game-UI-Pixel-Art\Mission Failed" />
+     <Folder Include="Assets\Free-TDS-Game-UI-Pixel-Art\Victory" />
+     <Folder Include="Assets\Free-TDS-Game-UI-Pixel-Art\Main menu" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\_supporting files\palettes\base ramps" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <Folder Include="Assets\Free-TDS-Game-UI-Pixel-Art\HUD\CHARACTER HUD" />
+     <Folder Include="Assets\TextMesh Pro\Shaders" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\farmer base sheets\01body" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
+     <Folder Include="Assets\TextMesh Pro\Fonts" />
+     <Folder Include="Assets\Free-TDS-Game-UI-Pixel-Art\Levels Menu" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\cloud_tileset\readme.txt" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\farmer base sheets\14head" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\farmer base sheets\15over" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\farmer base sheets\12face" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <Folder Include="Assets\cloud_tileset\rpgmaker_vx" />
+     <Folder Include="Assets\Free-TDS-Game-UI-Pixel-Art\HUD\WEAPON ICONS" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\farmer base sheets\00undr" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\farmer base sheets\05shrt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <Folder Include="Assets\Textures" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample" />
+     <Folder Include="Assets\TextMesh Pro\Documentation" />
+     <Folder Include="Assets\Free-TDS-Game-UI-Pixel-Art\Inventory and Stats" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\farmer base sheets\04lwr1" />
+     <Folder Include="Assets\Free-TDS-Game-UI-Pixel-Art\Upgrade" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
+     <Folder Include="Assets\Mana Seed Farmer Sprite Free Sample\farmer base sheets\13hair" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <Reference Include="UnityEngine">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.32f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CoreModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.32f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.32f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
