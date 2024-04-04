@@ -45,6 +45,25 @@ AnimationClip:
     path: 
     classID: 212
     script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_FlipX
+    path: Shirt
+    classID: 212
+    script: {fileID: 0}
   m_PPtrCurves:
   - curve:
     - time: 0
@@ -59,6 +78,21 @@ AnimationClip:
       value: {fileID: -1414088161, guid: 155257584ac36024aa71270658416082, type: 3}
     attribute: m_Sprite
     path: 
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: -391324779, guid: c3b1e62b0ed0706459f74324a168b5ed, type: 3}
+    - time: 0.1
+      value: {fileID: 329097928, guid: c3b1e62b0ed0706459f74324a168b5ed, type: 3}
+    - time: 0.2
+      value: {fileID: 1452658326, guid: c3b1e62b0ed0706459f74324a168b5ed, type: 3}
+    - time: 0.3
+      value: {fileID: -447308522, guid: c3b1e62b0ed0706459f74324a168b5ed, type: 3}
+    - time: 0.4
+      value: {fileID: 1733786422, guid: c3b1e62b0ed0706459f74324a168b5ed, type: 3}
+    attribute: m_Sprite
+    path: Shirt
     classID: 212
     script: {fileID: 0}
   m_SampleRate: 60
@@ -76,7 +110,21 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
+      path: 1248117524
+      attribute: 555744692
+      script: {fileID: 0}
+      typeID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
       path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 1248117524
       attribute: 0
       script: {fileID: 0}
       typeID: 212
@@ -88,6 +136,11 @@ AnimationClip:
     - {fileID: 480560018, guid: 155257584ac36024aa71270658416082, type: 3}
     - {fileID: -1084994368, guid: 155257584ac36024aa71270658416082, type: 3}
     - {fileID: -1414088161, guid: 155257584ac36024aa71270658416082, type: 3}
+    - {fileID: -391324779, guid: c3b1e62b0ed0706459f74324a168b5ed, type: 3}
+    - {fileID: 329097928, guid: c3b1e62b0ed0706459f74324a168b5ed, type: 3}
+    - {fileID: 1452658326, guid: c3b1e62b0ed0706459f74324a168b5ed, type: 3}
+    - {fileID: -447308522, guid: c3b1e62b0ed0706459f74324a168b5ed, type: 3}
+    - {fileID: 1733786422, guid: c3b1e62b0ed0706459f74324a168b5ed, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -135,6 +188,25 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_FlipX
     path: 
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_FlipX
+    path: Shirt
     classID: 212
     script: {fileID: 0}
   m_EulerEditorCurves: []
