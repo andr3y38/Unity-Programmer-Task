@@ -36,9 +36,11 @@ public class Collectable : MonoBehaviour
         
         // Add currency
         int Money = PlayerPrefs.GetInt("Money", 0);
-        PlayerPrefs.SetInt("Money", Money + 1);
-        PlayerPrefs.Save(); 
+        PlayerPrefs.SetInt("Money", Money + 5);
+        PlayerPrefs.Save();
 
+        OpenInventory.Instance.UpdateCoinText();
+        
         audio.Play();
         
         StartCoroutine(ReEnableAfterDelay(8f)); // Wait for 8 seconds before re-enabling

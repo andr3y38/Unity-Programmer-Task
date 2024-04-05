@@ -2,15 +2,38 @@
 
 public class CharacterController2D : MonoBehaviour {
 
+    public static CharacterController2D Instance { get; private set; }
+    
     private const float MOVE_SPEED = 10f;
 
     private new Rigidbody2D rigidbody2D;
     private Vector2 moveDir;
     private Animator animator;
+    
+    [Header("UI")]
+    [SerializeField]
+    public GameObject shopButton;
+    public GameObject ShopPanel;
 
-    private void Awake() {
+    private bool _skinEquipped;
+    public bool SkinEquipped
+    {
+        get
+        {
+            return _skinEquipped; 
+        }
+        set
+        {
+            _skinEquipped = value;
+        }
+    }
+
+    private void Awake()
+    {
+        Instance = this;
         rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        
     }
 
     private void Update() {
